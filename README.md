@@ -1,13 +1,13 @@
 ### Scripts for configuring a Kubernetes GPU cluster.
 
-#### 1. Install NVIDIA Driver (ubuntu 22.04)
+#### 1. Install NVIDIA Driver (for ubuntu 22.04)
 ```
 $ bash install_nvidia_dirver_22_04.sh
 ```
-Note: for other system, please refer to NVIDIA Driver installation guide.
+Note: for other system, please refer to NVIDIA Driver && CUDA installation guide [CUDA Toolkit](https://developer.nvidia.com/cuda-12-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local).
 
 
-#### 2. Install nvidia container 
+#### 2. Install nvidia container toolkit
 ```
 $ bash install_nvidia_container.sh
 ```
