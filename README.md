@@ -16,7 +16,7 @@ $ bash install_nvidia_container.sh
 ```
 $ bash basic_install_all_nodes.sh
 ```
-Note: please configure the containerd environment following the final comment at the end in the script.
+Note (**Important**): Please configure the `containerd` environment following `the final comment` at the end in the script `basic_install_all_nodes.sh`.
 
 
 #### 4. Install K8s
