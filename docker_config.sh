@@ -17,3 +17,7 @@ cat <<EOF | sudo tee /etc/docker/daemon.json
 }
 EOF
 sudo systemctl restart docker
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
