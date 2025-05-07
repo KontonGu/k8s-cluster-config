@@ -26,6 +26,9 @@ $ bash master_node.sh
 $ bash deploy_gpu_device_plguin.sh  
 ```
 ##### For Worker Node:
+```
+$ bash worker_node.sh
+```
 check the command from Master node by
 ```
 $ kubeadm token create --print-join-command
