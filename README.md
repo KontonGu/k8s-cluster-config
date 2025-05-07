@@ -1,4 +1,4 @@
-### Scripts for configuring a Kubernetes GPU cluster.
+### Scripts to Deploy a Kubernetes GPU Cluster
 
 #### 1. Install NVIDIA Driver (for ubuntu 22.04)
 ```
