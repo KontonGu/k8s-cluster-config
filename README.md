@@ -33,3 +33,20 @@ check the command from Master node by
 ```
 $ kubeadm token create --print-join-command
 ```
+
+#### 5. docker-ce (Optional)
+If Docker CE is required, please execute the Docker installation and configuration script only after Kubernetes has been successfully installed.
+```
+$ bash install_docker_ce.sh
+$ bash docker_config.sh
+```
+
+
+### Test
+```
+$ kubectl apply -f test_gpu_pod.yaml
+```
+check the output:
+```
+$ kubectl logs gpu-pod
+```
