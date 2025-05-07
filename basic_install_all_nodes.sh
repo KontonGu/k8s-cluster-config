@@ -61,6 +61,9 @@ sudo apt-get update
 VERSION_STRING=5:27.5.1-1~ubuntu.22.04~jammy
 sudo apt-get install -y docker-ce-cli=$VERSION_STRING containerd.io containernetworking-plugins
 
+
+####################################### Important Manual Configuration ######################
+
 ## change to the root user with
 # sudo su -
 # containerd config default>/etc/containerd/config.toml
